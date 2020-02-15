@@ -1,6 +1,9 @@
 { pkgs ?  import <nixpkgs> {} }:
 pkgs.mkShell {
   buildInputs = with pkgs; [
+
+    jsonnet
+
     (pkgs.writers.writeBashBin "reformat" ''
       for file in `find ${toString ./.} -type f | egrep "\.jsonnet$"`
       do
@@ -17,7 +20,7 @@ pkgs.mkShell {
       for file in `ls | egrep "\.jsonnet$"`
       do
         filename=`basename "$file" ".jsonnet"`
-        ${pkgs.jsonnet}/bin/jsonnet "$file" | ${pkgs.jq}/bin/jq --compact-output '.' > "''${filename}.json"
+        ${pkgs.jsonnet}/bin/jsonnet "$file" | ${pkgs.jq}/bin/jq '.' > "''${filename}.json"
       done
     '')
   ];
