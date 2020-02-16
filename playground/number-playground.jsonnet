@@ -1,4 +1,4 @@
-local numbers = import './lib/numbers.libsonnet';
+local numbers = import '../lib/numbers.libsonnet';
 
 local text(text) = {
   type: 'sequence',
@@ -31,8 +31,8 @@ local text(text) = {
         x: (12 / 2) * -45,
         objects: [
           text(['+', '-', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0']),
-          { type: 'line', a: { x: -10000, y: 50 }, b: { x: 10000, y: 50 } },
-          { type: 'line', a: { x: -10000, y: -50 }, b: { x: 10000, y: -50 } },
+          //{ type: 'line', a: { x: -10000, y: 50 }, b: { x: 10000, y: 50 } },
+          //{ type: 'line', a: { x: -10000, y: -50 }, b: { x: 10000, y: -50 } },
           //{ type: 'line', a: { x: -10000, y: 40 }, b: { x: 10000, y: 40 } },
           //{ type: 'line', a: { x: -10000, y: -40 }, b: { x: 10000, y: -40 } },
         ],

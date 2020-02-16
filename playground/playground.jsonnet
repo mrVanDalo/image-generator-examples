@@ -1,4 +1,4 @@
-local numbers = import './lib/numbers.libsonnet';
+local numbers = import '../lib/numbers.libsonnet';
 
 {
   width: 1366,

@@ -8,8 +8,8 @@
 // icon_studio.icon_setup(
 //   query=
 //   { type: 'sequence', objects: [
-//     { type: 'line', a: { x: -50, y: 50 }, b: { x: 50, y: -50 } },
-//     { type: 'line', a: { x: -50, y: -50 }, b: { x: 50, y: 50 } },
+//     { type: 'line', path: [{ x: -50, y: 50 }, { x: 50, y: -50 } ]},
+//     { type: 'line', path: [{ x: -50, y: -50 },{ x: 50, y: 50 } ]},
 //   ] },
 // )
 
@@ -80,14 +80,14 @@ local text(text) = {
               },
 
               // corners
-              { type: 'line', a: { x: -60, y: -50 }, b: { x: -50, y: -50 } },
-              { type: 'line', a: { x: -50, y: -60 }, b: { x: -50, y: -50 } },
-              { type: 'line', a: { x: 60, y: -50 }, b: { x: 50, y: -50 } },
-              { type: 'line', a: { x: 50, y: -60 }, b: { x: 50, y: -50 } },
-              { type: 'line', a: { x: 50, y: 60 }, b: { x: 50, y: 50 } },
-              { type: 'line', a: { x: 60, y: 50 }, b: { x: 50, y: 50 } },
-              { type: 'line', a: { x: -50, y: 60 }, b: { x: -50, y: 50 } },
-              { type: 'line', a: { x: -60, y: 50 }, b: { x: -50, y: 50 } },
+              { type: 'line', path: [{ x: -60, y: -50 }, { x: -50, y: -50 }] },
+              { type: 'line', path: [{ x: -50, y: -60 }, { x: -50, y: -50 }] },
+              { type: 'line', path: [{ x: 60, y: -50 }, { x: 50, y: -50 }] },
+              { type: 'line', path: [{ x: 50, y: -60 }, { x: 50, y: -50 }] },
+              { type: 'line', path: [{ x: 50, y: 60 }, { x: 50, y: 50 }] },
+              { type: 'line', path: [{ x: 60, y: 50 }, { x: 50, y: 50 }] },
+              { type: 'line', path: [{ x: -50, y: 60 }, { x: -50, y: 50 }] },
+              { type: 'line', path: [{ x: -60, y: 50 }, { x: -50, y: 50 }] },
 
               // labels
               grid(scale=10, y=-50, x=100, query='-50'),
@@ -112,22 +112,22 @@ local text(text) = {
               grid(scale=10, angle=90, y=-100, x=50, query='50'),
 
               // middle
-              { type: 'line', a: { x: -50, y: 0 }, b: { x: -80, y: -0 } },
-              { type: 'line', a: { x: 50, y: 0 }, b: { x: 80, y: -0 } },
-              { type: 'line', a: { x: 0, y: 50 }, b: { x: 0, y: 80 } },
-              { type: 'line', a: { x: 0, y: -50 }, b: { x: 0, y: -80 } },
+              { type: 'line', path: [{ x: -50, y: 0 }, { x: -80, y: -0 }] },
+              { type: 'line', path: [{ x: 50, y: 0 }, { x: 80, y: -0 }] },
+              { type: 'line', path: [{ x: 0, y: 50 }, { x: 0, y: 80 }] },
+              { type: 'line', path: [{ x: 0, y: -50 }, { x: 0, y: -80 }] },
 
               // 25%
-              { type: 'line', a: { x: -50, y: 25 }, b: { x: -70, y: 25 } },
-              { type: 'line', a: { x: 50, y: 25 }, b: { x: 70, y: 25 } },
-              { type: 'line', a: { y: -50, x: 25 }, b: { y: -70, x: 25 } },
-              { type: 'line', a: { y: 50, x: 25 }, b: { y: 70, x: 25 } },
+              { type: 'line', path: [{ x: -50, y: 25 }, { x: -70, y: 25 }] },
+              { type: 'line', path: [{ x: 50, y: 25 }, { x: 70, y: 25 }] },
+              { type: 'line', path: [{ y: -50, x: 25 }, { y: -70, x: 25 }] },
+              { type: 'line', path: [{ y: 50, x: 25 }, { y: 70, x: 25 }] },
 
               // -25 %
-              { type: 'line', a: { x: -50, y: -25 }, b: { x: -70, y: -25 } },
-              { type: 'line', a: { x: 50, y: -25 }, b: { x: 70, y: -25 } },
-              { type: 'line', a: { y: -50, x: -25 }, b: { y: -70, x: -25 } },
-              { type: 'line', a: { y: 50, x: -25 }, b: { y: 70, x: -25 } },
+              { type: 'line', path: [{ x: -50, y: -25 }, { x: -70, y: -25 }] },
+              { type: 'line', path: [{ x: 50, y: -25 }, { x: 70, y: -25 }] },
+              { type: 'line', path: [{ y: -50, x: -25 }, { y: -70, x: -25 }] },
+              { type: 'line', path: [{ y: 50, x: -25 }, { y: 70, x: -25 }] },
 
               {
                 type: 'grid',

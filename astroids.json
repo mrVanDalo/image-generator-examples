@@ -1,0 +1,129 @@
+{
+  "height": 768,
+  "objects": {
+    "astroid1": {
+      "path": [
+        {
+          "x": -40,
+          "y": -25
+        },
+        {
+          "x": -25,
+          "y": -40
+        },
+        {
+          "x": 0,
+          "y": -25
+        },
+        {
+          "x": 20,
+          "y": -35
+        },
+        {
+          "x": 28,
+          "y": -10
+        },
+        {
+          "x": 10,
+          "y": -5
+        },
+        {
+          "x": 27,
+          "y": 10
+        },
+        {
+          "x": 0,
+          "y": 30
+        },
+        {
+          "x": -20,
+          "y": 20
+        },
+        {
+          "x": -28,
+          "y": 26
+        },
+        {
+          "x": -42,
+          "y": 6
+        },
+        {
+          "x": -32,
+          "y": -10
+        },
+        {
+          "x": -40,
+          "y": -25
+        }
+      ],
+      "tags": [
+        "astroid"
+      ],
+      "type": "line"
+    },
+    "main": {
+      "columns": 5,
+      "height": 230,
+      "query": {
+        "by_tag": [
+          "mod"
+        ]
+      },
+      "rows": 5,
+      "type": "grid",
+      "width": 300
+    },
+    "mod1": {
+      "angle": 30,
+      "query": {
+        "by_tag": [
+          "astroid"
+        ]
+      },
+      "scale": 60,
+      "tags": [
+        "astroid",
+        "mod"
+      ],
+      "type": "grid",
+      "x": -53,
+      "y": 31
+    },
+    "mod2": {
+      "angle": 80,
+      "query": {
+        "by_tag": [
+          "astroid"
+        ]
+      },
+      "scale": 90,
+      "tags": [
+        "astroid",
+        "mod"
+      ],
+      "type": "grid",
+      "x": -89,
+      "y": 23
+    },
+    "mod3": {
+      "angle": 20,
+      "query": {
+        "by_tag": [
+          "astroid"
+        ]
+      },
+      "scale": 90,
+      "tags": [
+        "astroid",
+        "mod"
+      ],
+      "type": "grid",
+      "x": 89,
+      "y": 23
+    }
+  },
+  "start": {
+    "by_name": "main"
+  },
+  "width": 1366
+}

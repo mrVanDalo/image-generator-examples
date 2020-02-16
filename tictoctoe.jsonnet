@@ -60,13 +60,17 @@
       objects: [
         {
           type: 'line',
-          a: { y: -30 },
-          b: { y: 30 },
+          path: [
+            { y: -30 },
+            { y: 30 },
+          ],
         },
         {
           type: 'line',
-          a: { x: -30 },
-          b: { x: 30 },
+          path: [
+            { x: -30 },
+            { x: 30 },
+          ],
         },
       ],
     },
@@ -82,40 +86,32 @@
         ] },
         {
           type: 'line',
-          a: { y: -30 },
-          b: { y: 30 },
+          path: [
+            { y: -30 },
+            { y: 30 },
+          ],
           color: 'background',
         },
         {
           type: 'line',
-          a: { x: -30 },
-          b: { x: 30 },
+          path: [
+            { x: -30 },
+            { x: 30 },
+          ],
           color: 'background',
         },
       ],
     },
 
-    background: { type: 'sequence', objects: [
-      {
-        type: 'line',
-        a: { y: -50 },
-        b: { x: -50 },
-      },
-      {
-        type: 'line',
-        a: { y: 50 },
-        b: { x: 50 },
-      },
-      {
-        type: 'line',
-        a: { y: 50 },
-        b: { x: -50 },
-      },
-      {
-        type: 'line',
-        a: { y: -50 },
-        b: { x: 50 },
-      },
-    ] },
+    background: {
+      type: 'line',
+      path: [
+        { x: 50 },
+        { y: -50 },
+        { x: -50 },
+        { y: 50 },
+        { x: 50 },
+      ],
+    },
   },
 }

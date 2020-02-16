@@ -14,20 +14,24 @@
       },
       pen_shade1: {
         type: 'line',
-        a: {},
-        b: { x: -22},
+        path: [
+          {},
+          { x: -22 },
+        ],
       },
       pen_shade2: {
         type: 'line',
-        a: {},
-        b: { x: -10, y: 10 },
+        path: [
+          {},
+          { x: -10, y: 10 },
+        ],
       },
       pen: {
         type: 'sequence',
         objects: [
           { type: 'grid', query: { by_name: 'pen_withoud_shade' } },
-          { type: 'grid', x: 50, y:60, rows: 19, height: 5,   query: { by_name: 'pen_shade2' } },
-          { type: 'grid', x: 30, y:60, rows: 11, height: 5,   query: { by_name: 'pen_shade1' } },
+          { type: 'grid', x: 50, y: 60, rows: 19, height: 5, query: { by_name: 'pen_shade2' } },
+          { type: 'grid', x: 30, y: 60, rows: 11, height: 5, query: { by_name: 'pen_shade1' } },
         ],
       },
       pen1: {
@@ -55,10 +59,10 @@
             ],
             color: 'background',
           },
-          { type: 'line', a: { x: -50 }, b: { x: -50, y: 400 } },
-          { type: 'line', a: { x: 50 }, b: { x: 50, y: 400 } },
-          { type: 'line', a: { x: -30 }, b: { x: -30, y: 400 } },
-          { type: 'line', a: { x: 30 }, b: { x: 30, y: 400 } },
+          { type: 'line', path: [{ x: -50 }, { x: -50, y: 400 }] },
+          { type: 'line', path: [{ x: 50 }, { x: 50, y: 400 }] },
+          { type: 'line', path: [{ x: -30 }, { x: -30, y: 400 }] },
+          { type: 'line', path: [{ x: 30 }, { x: 30, y: 400 }] },
 
           {
             type: 'icon',
@@ -78,45 +82,18 @@
           // eye
           {
             type: 'line',
-            a: { x: 30, y: -30 },
-            b: { x: -30, y: -30 },
+            path: [
+              { x: 30, y: -30 },
+              { x: -30, y: -30 },
+              { x: -50, y: -10 },
+              { y: 10, x: -50 },
+              { x: -30, y: 30 },
+              { x: 30, y: 30 },
+              { y: 10, x: 50 },
+              { y: -10, x: 50 },
+              { x: 30, y: -30 },
+            ],
           },
-          {
-            type: 'line',
-            a: { x: 30, y: 30 },
-            b: { x: -30, y: 30 },
-          },
-          {
-            type: 'line',
-            a: { y: 10, x: -50 },
-            b: { y: -10, x: -50 },
-          },
-          {
-            type: 'line',
-            a: { y: 10, x: 50 },
-            b: { y: -10, x: 50 },
-          },
-          {
-            type: 'line',
-            a: { y: 10, x: 50 },
-            b: { x: 30, y: 30 },
-          },
-          {
-            type: 'line',
-            a: { y: 10, x: -50 },
-            b: { x: -30, y: 30 },
-          },
-          {
-            type: 'line',
-            a: { x: -30, y: -30 },
-            b: { x: -50, y: -10 },
-          },
-          {
-            type: 'line',
-            a: { x: 30, y: -30 },
-            b: { x: 50, y: -10 },
-          },
-
         ],
       },
     },

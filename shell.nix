@@ -17,10 +17,11 @@ pkgs.mkShell {
     '')
 
     (pkgs.writers.writeBashBin "build" ''
-      for file in `ls | egrep "\.jsonnet$"`
+      for file in `find ${toString ./.} -type f | egrep "\.jsonnet$"`
       do
         filename=`basename "$file" ".jsonnet"`
-        ${pkgs.jsonnet}/bin/jsonnet "$file" | ${pkgs.jq}/bin/jq '.' > "''${filename}.json"
+        dirname=`dirname "$file"`
+        ${pkgs.jsonnet}/bin/jsonnet "$file" | ${pkgs.jq}/bin/jq '.' > "''${dirname}/''${filename}.json"
       done
     '')
   ];
