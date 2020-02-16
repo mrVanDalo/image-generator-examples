@@ -60,6 +60,25 @@ local text(text) = {
           main: {
             type: 'sequence',
             objects: [
+
+              // hline
+              {
+                type: 'grid',
+                y: -200,
+                columns: 20,
+                query: { by_name: 'item' },
+              },
+
+              // kacheln
+              {
+                type: 'grid',
+                x: 600,
+                y: 200,
+                columns: 7,
+                rows: 5,
+                query: { by_name: 'item' },
+              },
+
               // corners
               { type: 'line', a: { x: -60, y: -50 }, b: { x: -50, y: -50 } },
               { type: 'line', a: { x: -50, y: -60 }, b: { x: -50, y: -50 } },
@@ -115,23 +134,6 @@ local text(text) = {
                 query: { by_name: 'item' },
               },
 
-              // hline
-              {
-                type: 'grid',
-                y: -200,
-                columns: 20,
-                query: { by_name: 'item' },
-              },
-
-              // kacheln
-              {
-                type: 'grid',
-                x: 600,
-                y: 200,
-                columns: 7,
-                rows: 5,
-                query: { by_name: 'item' },
-              },
 
             ],
           },

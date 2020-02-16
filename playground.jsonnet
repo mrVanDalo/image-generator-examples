@@ -9,12 +9,6 @@ local numbers = import './lib/numbers.libsonnet';
       {
         type: 'sequence',
         objects: [
-          //{
-          //  type: 'sun',
-          //  query: { one_of_names: ['6', '9'] },
-          //},
-          //{ type: 'ring' },
-          //{ type: 'ring', radius: 150 },
           {
             type: 'grid',
             columns: 10,
