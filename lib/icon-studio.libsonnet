@@ -129,7 +129,7 @@ local text(text) = {
                 x: 600,
                 y: 200,
                 columns: 7,
-                rows:5,
+                rows: 5,
                 query: { by_name: 'item' },
               },
 

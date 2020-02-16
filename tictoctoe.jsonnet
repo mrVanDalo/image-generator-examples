@@ -41,12 +41,15 @@
       type: 'sequence',
       tags: ['-', 'o'],
       objects: [
-        { type: 'icon', path: [
-          [-51, 0],
-          [0, -51],
-          [51, 0],
-          [0, 51],
-        ] },
+        {
+          type: 'icon',
+          path: [
+            { x: -51 },
+            { y: -51 },
+            { x: 51 },
+            { y: 51 },
+          ],
+        },
         { type: 'ring', radius: 25, color: 'background' },
       ],
     },
@@ -72,10 +75,10 @@
       tags: ['-', 'x'],
       objects: [
         { type: 'icon', path: [
-          [-51, 0],
-          [0, -51],
-          [51, 0],
-          [0, 51],
+          { x: -51 },
+          { y: -51 },
+          { x: 51 },
+          { y: 51 },
         ] },
         {
           type: 'line',
