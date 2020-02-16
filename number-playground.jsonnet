@@ -9,7 +9,7 @@ local text(text) = {
                          //{ type: 'line', a: { x: index * 100 - 20, y: 200 }, b: { x: index * 100 - 20, y: -200 } },
                          //{ type: 'line', a: { x: index * 100 + 20, y: 200 }, b: { x: index * 100 + 20, y: -200 } },
                          {
-                           type: 'placement',
+                           type: 'grid',
                            x: index * 45,
                            y: 0,
                            query: { by_name: element },

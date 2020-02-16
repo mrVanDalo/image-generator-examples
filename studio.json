@@ -44,7 +44,7 @@
           "query": {
             "by_name": "-"
           },
-          "type": "placement",
+          "type": "grid",
           "x": 0,
           "y": 0
         },
@@ -52,7 +52,7 @@
           "query": {
             "by_name": "2"
           },
-          "type": "placement",
+          "type": "grid",
           "x": 100,
           "y": 0
         },
@@ -60,7 +60,7 @@
           "query": {
             "by_name": "5"
           },
-          "type": "placement",
+          "type": "grid",
           "x": 200,
           "y": 0
         }
@@ -73,7 +73,7 @@
           "query": {
             "by_name": "-"
           },
-          "type": "placement",
+          "type": "grid",
           "x": 0,
           "y": 0
         },
@@ -81,7 +81,7 @@
           "query": {
             "by_name": "5"
           },
-          "type": "placement",
+          "type": "grid",
           "x": 100,
           "y": 0
         },
@@ -89,7 +89,7 @@
           "query": {
             "by_name": "0"
           },
-          "type": "placement",
+          "type": "grid",
           "x": 200,
           "y": 0
         }
@@ -261,7 +261,7 @@
           "query": {
             "by_name": "2"
           },
-          "type": "placement",
+          "type": "grid",
           "x": 0,
           "y": 0
         },
@@ -269,7 +269,7 @@
           "query": {
             "by_name": "5"
           },
-          "type": "placement",
+          "type": "grid",
           "x": 100,
           "y": 0
         }
@@ -431,7 +431,7 @@
           "query": {
             "by_name": "5"
           },
-          "type": "placement",
+          "type": "grid",
           "x": 0,
           "y": 0
         },
@@ -439,7 +439,7 @@
           "query": {
             "by_name": "0"
           },
-          "type": "placement",
+          "type": "grid",
           "x": 100,
           "y": 0
         }
@@ -598,7 +598,7 @@
       "query": {
         "by_name": "main"
       },
-      "type": "placement",
+      "type": "grid",
       "x": -200
     },
     "item": {
@@ -724,8 +724,8 @@
           "query": {
             "by_name": "-50"
           },
-          "size": 10,
-          "type": "placement",
+          "scale": 10,
+          "type": "grid",
           "x": 100,
           "y": -50
         },
@@ -734,8 +734,8 @@
           "query": {
             "by_name": "-25"
           },
-          "size": 10,
-          "type": "placement",
+          "scale": 10,
+          "type": "grid",
           "x": 100,
           "y": -25
         },
@@ -744,8 +744,8 @@
           "query": {
             "by_name": "0"
           },
-          "size": 10,
-          "type": "placement",
+          "scale": 10,
+          "type": "grid",
           "x": 120,
           "y": 0
         },
@@ -754,8 +754,8 @@
           "query": {
             "by_name": "25"
           },
-          "size": 10,
-          "type": "placement",
+          "scale": 10,
+          "type": "grid",
           "x": 110,
           "y": 25
         },
@@ -764,8 +764,8 @@
           "query": {
             "by_name": "50"
           },
-          "size": 10,
-          "type": "placement",
+          "scale": 10,
+          "type": "grid",
           "x": 110,
           "y": 50
         },
@@ -774,8 +774,8 @@
           "query": {
             "by_name": "-50"
           },
-          "size": 10,
-          "type": "placement",
+          "scale": 10,
+          "type": "grid",
           "x": -110,
           "y": -50
         },
@@ -784,8 +784,8 @@
           "query": {
             "by_name": "-25"
           },
-          "size": 10,
-          "type": "placement",
+          "scale": 10,
+          "type": "grid",
           "x": -110,
           "y": -25
         },
@@ -794,8 +794,8 @@
           "query": {
             "by_name": "0"
           },
-          "size": 10,
-          "type": "placement",
+          "scale": 10,
+          "type": "grid",
           "x": -100,
           "y": 0
         },
@@ -804,8 +804,8 @@
           "query": {
             "by_name": "25"
           },
-          "size": 10,
-          "type": "placement",
+          "scale": 10,
+          "type": "grid",
           "x": -100,
           "y": 25
         },
@@ -814,8 +814,8 @@
           "query": {
             "by_name": "50"
           },
-          "size": 10,
-          "type": "placement",
+          "scale": 10,
+          "type": "grid",
           "x": -100,
           "y": 50
         },
@@ -824,8 +824,8 @@
           "query": {
             "by_name": "-50"
           },
-          "size": 10,
-          "type": "placement",
+          "scale": 10,
+          "type": "grid",
           "x": -50,
           "y": 100
         },
@@ -834,8 +834,8 @@
           "query": {
             "by_name": "-25"
           },
-          "size": 10,
-          "type": "placement",
+          "scale": 10,
+          "type": "grid",
           "x": -25,
           "y": 100
         },
@@ -844,8 +844,8 @@
           "query": {
             "by_name": "0"
           },
-          "size": 10,
-          "type": "placement",
+          "scale": 10,
+          "type": "grid",
           "x": 0,
           "y": 120
         },
@@ -854,8 +854,8 @@
           "query": {
             "by_name": "25"
           },
-          "size": 10,
-          "type": "placement",
+          "scale": 10,
+          "type": "grid",
           "x": 25,
           "y": 110
         },
@@ -864,8 +864,8 @@
           "query": {
             "by_name": "50"
           },
-          "size": 10,
-          "type": "placement",
+          "scale": 10,
+          "type": "grid",
           "x": 50,
           "y": 110
         },
@@ -874,8 +874,8 @@
           "query": {
             "by_name": "-50"
           },
-          "size": 10,
-          "type": "placement",
+          "scale": 10,
+          "type": "grid",
           "x": -50,
           "y": -110
         },
@@ -884,8 +884,8 @@
           "query": {
             "by_name": "-25"
           },
-          "size": 10,
-          "type": "placement",
+          "scale": 10,
+          "type": "grid",
           "x": -25,
           "y": -110
         },
@@ -894,8 +894,8 @@
           "query": {
             "by_name": "0"
           },
-          "size": 10,
-          "type": "placement",
+          "scale": 10,
+          "type": "grid",
           "x": 0,
           "y": -90
         },
@@ -904,8 +904,8 @@
           "query": {
             "by_name": "25"
           },
-          "size": 10,
-          "type": "placement",
+          "scale": 10,
+          "type": "grid",
           "x": 25,
           "y": -100
         },
@@ -914,8 +914,8 @@
           "query": {
             "by_name": "50"
           },
-          "size": 10,
-          "type": "placement",
+          "scale": 10,
+          "type": "grid",
           "x": 50,
           "y": -100
         },
@@ -1052,404 +1052,28 @@
           "type": "line"
         },
         {
-          "angle": 0,
           "query": {
             "by_name": "item"
           },
-          "size": 100,
-          "type": "placement",
-          "x": 0,
-          "y": 0
+          "type": "grid"
         },
         {
-          "angle": 0,
+          "columns": 20,
           "query": {
             "by_name": "item"
           },
-          "size": 100,
-          "type": "placement",
-          "x": 0,
+          "type": "grid",
           "y": -200
         },
         {
-          "angle": 0,
+          "columns": 7,
           "query": {
             "by_name": "item"
           },
-          "size": 100,
-          "type": "placement",
-          "x": -100,
-          "y": -200
-        },
-        {
-          "angle": 0,
-          "query": {
-            "by_name": "item"
-          },
-          "size": 100,
-          "type": "placement",
-          "x": -200,
-          "y": -200
-        },
-        {
-          "angle": 0,
-          "query": {
-            "by_name": "item"
-          },
-          "size": 100,
-          "type": "placement",
-          "x": -300,
-          "y": -200
-        },
-        {
-          "angle": 0,
-          "query": {
-            "by_name": "item"
-          },
-          "size": 100,
-          "type": "placement",
-          "x": -400,
-          "y": -200
-        },
-        {
-          "angle": 0,
-          "query": {
-            "by_name": "item"
-          },
-          "size": 100,
-          "type": "placement",
-          "x": -500,
-          "y": -200
-        },
-        {
-          "angle": 0,
-          "query": {
-            "by_name": "item"
-          },
-          "size": 100,
-          "type": "placement",
-          "x": 100,
-          "y": -200
-        },
-        {
-          "angle": 0,
-          "query": {
-            "by_name": "item"
-          },
-          "size": 100,
-          "type": "placement",
-          "x": 200,
-          "y": -200
-        },
-        {
-          "angle": 0,
-          "query": {
-            "by_name": "item"
-          },
-          "size": 100,
-          "type": "placement",
-          "x": 300,
-          "y": -200
-        },
-        {
-          "angle": 0,
-          "query": {
-            "by_name": "item"
-          },
-          "size": 100,
-          "type": "placement",
-          "x": 400,
-          "y": -200
-        },
-        {
-          "angle": 0,
-          "query": {
-            "by_name": "item"
-          },
-          "size": 100,
-          "type": "placement",
-          "x": 500,
-          "y": -200
-        },
-        {
-          "angle": 0,
-          "query": {
-            "by_name": "item"
-          },
-          "size": 100,
-          "type": "placement",
-          "x": 600,
-          "y": -200
-        },
-        {
-          "angle": 0,
-          "query": {
-            "by_name": "item"
-          },
-          "size": 100,
-          "type": "placement",
-          "x": 700,
-          "y": -200
-        },
-        {
-          "angle": 0,
-          "query": {
-            "by_name": "item"
-          },
-          "size": 100,
-          "type": "placement",
-          "x": 800,
-          "y": -200
-        },
-        {
-          "angle": 0,
-          "query": {
-            "by_name": "item"
-          },
-          "size": 100,
-          "type": "placement",
-          "x": 900,
-          "y": -200
-        },
-        {
-          "angle": 0,
-          "query": {
-            "by_name": "item"
-          },
-          "size": 100,
-          "type": "placement",
-          "x": 1000,
-          "y": -200
-        },
-        {
-          "angle": 0,
-          "query": {
-            "by_name": "item"
-          },
-          "size": 100,
-          "type": "placement",
-          "x": 1100,
-          "y": -200
-        },
-        {
-          "angle": 0,
-          "query": {
-            "by_name": "item"
-          },
-          "size": 100,
-          "type": "placement",
-          "x": 1200,
-          "y": -200
-        },
-        {
-          "angle": 0,
-          "query": {
-            "by_name": "item"
-          },
-          "size": 100,
-          "type": "placement",
-          "x": 1300,
-          "y": -200
-        },
-        {
-          "angle": 0,
-          "query": {
-            "by_name": "item"
-          },
-          "size": 100,
-          "type": "placement",
-          "x": 300,
-          "y": 0
-        },
-        {
-          "angle": 0,
-          "query": {
-            "by_name": "item"
-          },
-          "size": 100,
-          "type": "placement",
-          "x": 400,
-          "y": 0
-        },
-        {
-          "angle": 0,
-          "query": {
-            "by_name": "item"
-          },
-          "size": 100,
-          "type": "placement",
-          "x": 500,
-          "y": 0
-        },
-        {
-          "angle": 0,
-          "query": {
-            "by_name": "item"
-          },
-          "size": 100,
-          "type": "placement",
-          "x": 600,
-          "y": 0
-        },
-        {
-          "angle": 0,
-          "query": {
-            "by_name": "item"
-          },
-          "size": 100,
-          "type": "placement",
-          "x": 700,
-          "y": 0
-        },
-        {
-          "angle": 0,
-          "query": {
-            "by_name": "item"
-          },
-          "size": 100,
-          "type": "placement",
-          "x": 300,
-          "y": 100
-        },
-        {
-          "angle": 0,
-          "query": {
-            "by_name": "item"
-          },
-          "size": 100,
-          "type": "placement",
-          "x": 400,
-          "y": 100
-        },
-        {
-          "angle": 0,
-          "query": {
-            "by_name": "item"
-          },
-          "size": 100,
-          "type": "placement",
-          "x": 500,
-          "y": 100
-        },
-        {
-          "angle": 0,
-          "query": {
-            "by_name": "item"
-          },
-          "size": 100,
-          "type": "placement",
-          "x": 600,
-          "y": 100
-        },
-        {
-          "angle": 0,
-          "query": {
-            "by_name": "item"
-          },
-          "size": 100,
-          "type": "placement",
-          "x": 700,
-          "y": 100
-        },
-        {
-          "angle": 0,
-          "query": {
-            "by_name": "item"
-          },
-          "size": 100,
-          "type": "placement",
-          "x": 300,
-          "y": 200
-        },
-        {
-          "angle": 0,
-          "query": {
-            "by_name": "item"
-          },
-          "size": 100,
-          "type": "placement",
-          "x": 400,
-          "y": 200
-        },
-        {
-          "angle": 0,
-          "query": {
-            "by_name": "item"
-          },
-          "size": 100,
-          "type": "placement",
-          "x": 500,
-          "y": 200
-        },
-        {
-          "angle": 0,
-          "query": {
-            "by_name": "item"
-          },
-          "size": 100,
-          "type": "placement",
+          "rows": 5,
+          "type": "grid",
           "x": 600,
           "y": 200
-        },
-        {
-          "angle": 0,
-          "query": {
-            "by_name": "item"
-          },
-          "size": 100,
-          "type": "placement",
-          "x": 700,
-          "y": 200
-        },
-        {
-          "angle": 0,
-          "query": {
-            "by_name": "item"
-          },
-          "size": 100,
-          "type": "placement",
-          "x": 300,
-          "y": 300
-        },
-        {
-          "angle": 0,
-          "query": {
-            "by_name": "item"
-          },
-          "size": 100,
-          "type": "placement",
-          "x": 400,
-          "y": 300
-        },
-        {
-          "angle": 0,
-          "query": {
-            "by_name": "item"
-          },
-          "size": 100,
-          "type": "placement",
-          "x": 500,
-          "y": 300
-        },
-        {
-          "angle": 0,
-          "query": {
-            "by_name": "item"
-          },
-          "size": 100,
-          "type": "placement",
-          "x": 600,
-          "y": 300
-        },
-        {
-          "angle": 0,
-          "query": {
-            "by_name": "item"
-          },
-          "size": 100,
-          "type": "placement",
-          "x": 700,
-          "y": 300
         }
       ],
       "type": "sequence"

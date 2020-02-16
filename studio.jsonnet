@@ -1,6 +1,5 @@
 local icon_studio = import './lib/icon-studio.libsonnet';
 
-
 icon_studio.icon_setup(
   query=
   { type: 'sequence', angle: 180, objects: [

@@ -1,18 +1,3 @@
-local line(y=0, query) =
-  std.map(function(x)
-    { type: 'placement', x: x * 100, y: y, query: query }
-          , std.range(-10, 10));
-
-local grid(query) =
-  {
-    type: 'sequence',
-    objects: std.flattenArrays(std.map(function(y) line(
-      y=100 * y,
-      query=query
-    ), std.range(-10, 10))),
-  };
-
-
 {
   width: 1366,
   height: 768,
@@ -22,23 +7,39 @@ local grid(query) =
     main: {
       type: 'sequence',
       objects: [
-        { type: 'placement', query: { by_name: 'background_grid' } },
-        { type: 'placement', query: { by_name: 'filling_grid' } },
-        { type: 'placement', x: 50, y: 50, query: { by_name: 'filling_grid' } },
+        {
+          type: 'grid',
+          rows: 20,
+          columns: 20,
+          query: { by_name: 'background' },
+        },
+        {
+          type: 'grid',
+          rows: 20,
+          columns: 20,
+          query: { by_tag: ['+', '-'] },
+        },
+        {
+          type: 'grid',
+          x: 50,
+          y: 50,
+          rows: 20,
+          columns: 20,
+          query: { by_tag: ['+', '-'] },
+        },
       ],
     },
 
-    filling_grid: grid(query={ by_tag: ['+', '-'] }),
     eye: {
       type: 'sequence',
-      tags: ['+'],
+      tags: ['+', 'o'],
       objects: [
         { type: 'ring', radius: 25 },
       ],
     },
     eye2: {
       type: 'sequence',
-      tags: ['-'],
+      tags: ['-', 'o'],
       objects: [
         { type: 'icon', path: [
           [-51, 0],
@@ -52,7 +53,7 @@ local grid(query) =
 
     cross: {
       type: 'sequence',
-      tags: ['+'],
+      tags: ['+', 'x'],
       objects: [
         {
           type: 'line',
@@ -68,7 +69,7 @@ local grid(query) =
     },
     cross2: {
       type: 'sequence',
-      tags: ['-'],
+      tags: ['-', 'x'],
       objects: [
         { type: 'icon', path: [
           [-51, 0],
@@ -91,8 +92,6 @@ local grid(query) =
       ],
     },
 
-    // background
-    background_grid: grid(query={ by_name: 'background' }),
     background: { type: 'sequence', objects: [
       {
         type: 'line',
@@ -104,7 +103,6 @@ local grid(query) =
         a: { y: 50 },
         b: { x: 50 },
       },
-
       {
         type: 'line',
         a: { y: 50 },
