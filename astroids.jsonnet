@@ -5,12 +5,22 @@
   objects: {
     main:
       {
-        type: 'grid',
-        query: { by_tag: ['mod'] },
-        rows: 5,
-        columns: 5,
-        width: 300,
-        height: 230,
+        type: 'sequence',
+        objects: [
+          {
+            type: 'grid',
+            query: { by_tag: ['mod'] },
+            rows: 5,
+            columns: 5,
+            width: 300,
+            height: 230,
+          },
+          {
+            type: 'grid',
+            scale: 50,
+            query: { by_name: 'ship' },
+          },
+        ],
       },
     mod1: {
       type: 'grid',
@@ -58,5 +68,54 @@
         { x: -40, y: -25 },
       ],
     },
+    astroid2: {
+      type: 'line',
+      tags: ['astroid'],
+      path: [
+        { x: -42, y: -25 },
+        { x: 0, y: -45 },
+        { x: 10, y: -25 },
+        { x: 20, y: -40 },
+        { x: 42, y: -18 },
+        { x: 43, y: 8 },
+        { x: 7, y: 41 },
+        { x: -17, y: 41 },
+        { x: -45, y: 10 },
+        { x: -45, y: -5 },
+        { x: -15, y: -5 },
+        { x: -42, y: -25 },
+      ],
+    },
+    shot: { type: 'line', path: [{ y: -10 }, { y: 10 }] },
+    ship:
+      {
+        type: 'sequence',
+        angle: 30,
+        objects: [
+          { type: 'grid', y: -140, height: 50, rows: 3, query: { by_name: 'shot' } },
+          {
+            type: 'icon',
+            path: [
+              { x: 0, y: -50 },
+              { x: 30, y: 48 },
+              { x: 16, y: 30 },
+              { x: -16, y: 30 },
+              { x: -30, y: 48 },
+            ],
+            color: 'background',
+          },
+          {
+            type: 'line',
+            path: [
+              { x: 0, y: -50 },
+              { x: 30, y: 48 },
+              { x: 16, y: 30 },
+              { x: -16, y: 30 },
+              { x: -30, y: 48 },
+              { x: 0, y: -50 },
+            ],
+          },
+        ],
+      },
   },
 }
