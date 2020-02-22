@@ -9,7 +9,24 @@
             "by_name": "wave_line"
           },
           "rows": 20,
-          "type": "grid"
+          "scale": 90,
+          "type": "grid",
+          "width": 200,
+          "x": -50,
+          "y": 0
+        },
+        {
+          "angle": 90,
+          "columns": 20,
+          "query": {
+            "by_name": "wave_line"
+          },
+          "rows": 20,
+          "scale": 90,
+          "type": "grid",
+          "width": 200,
+          "x": 50,
+          "y": 0
         },
         {
           "angle": 180,
@@ -18,9 +35,24 @@
             "by_name": "wave_line"
           },
           "rows": 20,
+          "scale": 90,
           "type": "grid",
+          "width": 200,
           "x": 50,
-          "y": 50
+          "y": 0
+        },
+        {
+          "angle": 270,
+          "columns": 20,
+          "query": {
+            "by_name": "wave_line"
+          },
+          "rows": 20,
+          "scale": 90,
+          "type": "grid",
+          "width": 200,
+          "x": 50,
+          "y": 100
         }
       ],
       "type": "sequence"
