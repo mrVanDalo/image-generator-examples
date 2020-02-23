@@ -1,0 +1,119 @@
+{
+  "height": 768,
+  "objects": {
+    "grid": {
+      "columns": 20,
+      "height": 160,
+      "query": {
+        "by_tag": [
+          "honeycomb"
+        ]
+      },
+      "rows": 20,
+      "scale": 94,
+      "type": "grid"
+    },
+    "honycomb_empty": {
+      "path": [],
+      "tags": [
+        "honeycomb"
+      ],
+      "type": "icon"
+    },
+    "honycomb_filled": {
+      "path": [
+        {
+          "x": -50,
+          "y": -30
+        },
+        {
+          "x": -0,
+          "y": -50
+        },
+        {
+          "x": 50,
+          "y": -30
+        },
+        {
+          "x": 50,
+          "y": 30
+        },
+        {
+          "x": -0,
+          "y": 50
+        },
+        {
+          "x": -50,
+          "y": 30
+        },
+        {
+          "x": -50,
+          "y": -30
+        }
+      ],
+      "tags": [
+        "honeycomb"
+      ],
+      "type": "icon"
+    },
+    "honycomb_lines": {
+      "path": [
+        {
+          "x": -50,
+          "y": -30
+        },
+        {
+          "x": -0,
+          "y": -50
+        },
+        {
+          "x": 50,
+          "y": -30
+        },
+        {
+          "x": 50,
+          "y": 30
+        },
+        {
+          "x": -0,
+          "y": 50
+        },
+        {
+          "x": -50,
+          "y": 30
+        },
+        {
+          "x": -50,
+          "y": -30
+        }
+      ],
+      "tags": [
+        "honeycomb"
+      ],
+      "type": "line"
+    },
+    "main": {
+      "objects": [
+        {
+          "query": {
+            "by_name": "grid"
+          },
+          "type": "grid"
+        },
+        {
+          "query": {
+            "by_name": "grid"
+          },
+          "type": "grid",
+          "x": 50,
+          "y": 80
+        }
+      ],
+      "type": "sequence"
+    }
+  },
+  "start": {
+    "by_name": "main"
+  },
+  "width": 1366
+}
