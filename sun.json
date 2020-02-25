@@ -1,0 +1,146 @@
+{
+  "height": 768,
+  "objects": {
+    "beam": {
+      "objects": [
+        {
+          "path": [
+            {
+              "x": 50,
+              "y": 0
+            },
+            {
+              "x": 0,
+              "y": -100
+            },
+            {
+              "x": -50,
+              "y": 0
+            },
+            {
+              "x": 50,
+              "y": 0
+            }
+          ],
+          "type": "line"
+        },
+        {
+          "color": "background",
+          "path": [
+            {
+              "x": -25,
+              "y": 0
+            },
+            {
+              "x": 0,
+              "y": -100
+            },
+            {
+              "x": -50,
+              "y": 0
+            }
+          ],
+          "type": "icon"
+        },
+        {
+          "path": [
+            {
+              "x": -25,
+              "y": 0
+            },
+            {
+              "x": 0,
+              "y": -100
+            },
+            {
+              "x": -50,
+              "y": 0
+            }
+          ],
+          "type": "icon"
+        }
+      ],
+      "type": "sequence"
+    },
+    "lightning": {
+      "objects": [
+        {
+          "path": [
+            {
+              "x": -10,
+              "y": 0
+            },
+            {
+              "x": -0,
+              "y": -30
+            },
+            {
+              "x": -10,
+              "y": -30
+            },
+            {
+              "x": -0,
+              "y": -60
+            },
+            {
+              "x": -10,
+              "y": -60
+            },
+            {
+              "x": 0,
+              "y": -100
+            },
+            {
+              "x": 0,
+              "y": -70
+            },
+            {
+              "x": 10,
+              "y": -70
+            },
+            {
+              "x": 0,
+              "y": -40
+            },
+            {
+              "x": 10,
+              "y": -40
+            },
+            {
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "type": "line"
+        }
+      ],
+      "type": "sequence"
+    },
+    "main": {
+      "objects": [
+        {
+          "query": {
+            "by_name": "lightning"
+          },
+          "radius": 80,
+          "type": "sun"
+        },
+        {
+          "color": "background",
+          "radius": 100,
+          "type": "circle"
+        },
+        {
+          "color": "fill",
+          "radius": 100,
+          "type": "ring"
+        }
+      ],
+      "type": "sequence"
+    }
+  },
+  "start": {
+    "by_name": "main"
+  },
+  "width": 1366
+}
