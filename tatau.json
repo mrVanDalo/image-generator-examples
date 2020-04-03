@@ -1,0 +1,97 @@
+{
+  "height": 768,
+  "line_size": 2,
+  "objects": {
+    "main": {
+      "objects": [
+        {
+          "query": {
+            "by_name": "squares"
+          },
+          "type": "grid",
+          "y": 100
+        },
+        {
+          "query": {
+            "by_name": "squares"
+          },
+          "type": "grid",
+          "y": -100
+        }
+      ],
+      "type": "sequence"
+    },
+    "square": {
+      "objects": [
+        {
+          "path": [
+            {
+              "x": -50,
+              "y": 0
+            },
+            {
+              "x": 0,
+              "y": -50
+            },
+            {
+              "x": 50,
+              "y": 0
+            },
+            {
+              "x": 0,
+              "y": 50
+            },
+            {
+              "x": -50,
+              "y": 0
+            }
+          ],
+          "type": "icon"
+        },
+        {
+          "color": "background",
+          "path": [
+            {
+              "x": -50,
+              "y": 0
+            },
+            {
+              "x": 0,
+              "y": -50
+            },
+            {
+              "x": 50,
+              "y": 0
+            },
+            {
+              "x": 0,
+              "y": 50
+            },
+            {
+              "x": -50,
+              "y": 0
+            }
+          ],
+          "type": "line"
+        }
+      ],
+      "type": "sequence"
+    },
+    "squares": {
+      "columns": 99,
+      "query": {
+        "by_name": "square"
+      },
+      "scale": 90,
+      "tags": [
+        "line"
+      ],
+      "type": "grid",
+      "width": 50
+    }
+  },
+  "start": {
+    "by_name": "main"
+  },
+  "width": 1366
+}
