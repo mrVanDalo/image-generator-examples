@@ -4,6 +4,7 @@
     "main": {
       "objects": [
         {
+          "angle": 0,
           "columns": 20,
           "query": {
             "by_name": "wave_line"
@@ -12,7 +13,7 @@
           "scale": 90,
           "type": "grid",
           "width": 200,
-          "x": -50,
+          "x": 50,
           "y": 0
         },
         {
@@ -21,7 +22,7 @@
           "query": {
             "by_name": "wave_line"
           },
-          "rows": 20,
+          "rows": 30,
           "scale": 90,
           "type": "grid",
           "width": 200,
@@ -34,12 +35,12 @@
           "query": {
             "by_name": "wave_line"
           },
-          "rows": 20,
+          "rows": 30,
           "scale": 90,
           "type": "grid",
           "width": 200,
-          "x": 50,
-          "y": 0
+          "x": -50,
+          "y": 100
         },
         {
           "angle": 270,
@@ -47,7 +48,7 @@
           "query": {
             "by_name": "wave_line"
           },
-          "rows": 20,
+          "rows": 30,
           "scale": 90,
           "type": "grid",
           "width": 200,
