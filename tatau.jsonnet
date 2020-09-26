@@ -1,4 +1,4 @@
-# inspired by https://www.tattoo-models.net/complete-guide-samoan-tattoos-get-one/
+// inspired by https://www.tattoo-models.net/complete-guide-samoan-tattoos-get-one/
 {
   width: 1366,
   height: 768,
