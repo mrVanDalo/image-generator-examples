@@ -1,0 +1,110 @@
+{
+  "height": 768,
+  "objects": {
+    "main": {
+      "columns": 200,
+      "height": 30,
+      "query": {
+        "by_tag": [
+          "masche"
+        ]
+      },
+      "rows": 200,
+      "scale": 30,
+      "type": "grid",
+      "width": 30
+    },
+    "masche": {
+      "objects": [
+        {
+          "path": [
+            {
+              "x": -50,
+              "y": -12
+            },
+            {
+              "x": -50,
+              "y": 12
+            },
+            {
+              "x": 50,
+              "y": 12
+            },
+            {
+              "x": 50,
+              "y": -12
+            }
+          ],
+          "type": "icon"
+        },
+        {
+          "path": [
+            {
+              "x": -12,
+              "y": -50
+            },
+            {
+              "x": 12,
+              "y": -50
+            },
+            {
+              "x": 12,
+              "y": -25
+            },
+            {
+              "x": -12,
+              "y": -25
+            }
+          ],
+          "type": "icon"
+        },
+        {
+          "path": [
+            {
+              "x": -12,
+              "y": 50
+            },
+            {
+              "x": 12,
+              "y": 50
+            },
+            {
+              "x": 12,
+              "y": 25
+            },
+            {
+              "x": -12,
+              "y": 25
+            }
+          ],
+          "type": "icon"
+        }
+      ],
+      "type": "sequence"
+    },
+    "masche1": {
+      "angle": 0,
+      "query": {
+        "by_name": "masche"
+      },
+      "tags": [
+        "masche"
+      ],
+      "type": "grid"
+    },
+    "masche2": {
+      "angle": 90,
+      "query": {
+        "by_name": "masche"
+      },
+      "tags": [
+        "masche"
+      ],
+      "type": "grid"
+    }
+  },
+  "start": {
+    "by_name": "main"
+  },
+  "width": 1366
+}

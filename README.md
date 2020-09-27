@@ -14,5 +14,8 @@ jsonnet.
 ## [honeycombs.json](./honeycombs.json)
 ![./honeycombs.json](./honeycombs.png)
 
+## [masche.json](./masche.json)
+![./masche.json](./masche.png)
+
 ## [pencils.json](./pencils.json)
 ![./pencils.json](./pencils.png)

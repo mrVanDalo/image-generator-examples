@@ -1,25 +1,39 @@
 local icon_studio = import '../lib/icon-studio.libsonnet';
 
+local distance_a = 5;
+local distance_b = 10;
 icon_studio.icon_setup(
   query=
   {
-    type: 'icon',
-    path: [
-      { x: 0, y: 0 },
-      { x: -15, y: 15 },
-      { x: 0, y: 30 },
-      { x: 30, y: 0 },
-      { x: 0, y: -30 },
-      { x: -40, y: 10 },
-      { x: -50, y: -0 },
-      { x: -0, y: -50 },
-      { x: 50, y: -0 },
-      { x: 0, y: 50 },
-      { x: -35, y: 15 },
-      { x: 0, y: -20 },
-      { x: 20, y: 0 },
-      { x: 10, y: 10 },
-      { x: 0, y: 0 },
+    type: 'sequence',
+    objects: [
+      {
+        type: 'icon',
+        path: [
+          { x: -50, y: -1 * distance_a },
+          { x: -50, y: distance_a },
+          { x: 50, y: distance_a },
+          { x: 50, y: -1 * distance_a },
+        ],
+      },
+      {
+        type: 'icon',
+        path: [
+          { y: -50, x: -1 * distance_a },
+          { y: -50, x: distance_a },
+          { y: -1 * distance_b, x: distance_a },
+          { y: -1 * distance_b, x: -1 * distance_a },
+        ],
+      },
+      {
+        type: 'icon',
+        path: [
+          { y: 50, x: -1 * distance_a },
+          { y: 50, x: distance_a },
+          { y: 1 * distance_b, x: distance_a },
+          { y: 1 * distance_b, x: -1 * distance_a },
+        ],
+      },
     ],
   },
 )
